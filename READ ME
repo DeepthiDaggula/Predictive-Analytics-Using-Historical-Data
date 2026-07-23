@@ -1,1 +1,54 @@
+# Predictive Analytics Using Historical Data
 
+## Project Overview
+
+This project predicts house prices using historical housing data from London. It uses Machine Learning techniques to analyze past trends and estimate average house prices based on factors such as year, month, houses sold, number of crimes, and borough information.
+
+## Objective
+
+The objective of this project is to build a predictive model using historical data and evaluate its performance using regression techniques.
+
+## Dataset
+
+Dataset: Housing in London Monthly Variables
+
+Features:
+- Date
+- Houses Sold
+- Number of Crimes
+- Borough Flag
+- Average Price
+
+## Technologies Used
+
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+## Machine Learning Model
+
+- Linear Regression
+
+## Steps Performed
+
+- Imported dataset
+- Cleaned missing values
+- Converted date into year and month
+- Selected important features
+- Split data into training and testing sets
+- Trained Linear Regression model
+- Predicted house prices
+- Evaluated model performance
+- Visualized predictions
+
+## Evaluation Metrics
+
+- R² Score
+- Mean Squared Error
+
+## Conclusion
+
+The Linear Regression model successfully predicts average house prices using historical housing data. This project demonstrates data preprocessing, model training, prediction, evaluation, and visualization using Python.
